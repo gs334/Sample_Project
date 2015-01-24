@@ -36,7 +36,7 @@ void search(char *pat, char *txt)
 int main()
 {
    char *txt = "ABCEFABCD";
-   char *pat = "ABCD";
+   char *pat = "ABCE";
    search(pat, txt);
    return 0;
 }
